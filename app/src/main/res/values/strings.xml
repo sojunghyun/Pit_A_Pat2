@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Pit_A_Pat</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">비밀번호 찾기</string>
+    <string name="logintext">함께 즐겨요. Free Membership now!</string>
+    <string name="todo">TODO</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+    <string name="start">start</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+
+    <string name="title_home">그대</string>
+    <string name="title_board">당신</string>
+    <string name="title_Road">위치</string>
+    <string name="h_message1">그대가 좋아할 사람</string>
+    <string name="h_message2">당신을 좋아할 사람</string>
+    <!-- loading ㅑㅡ -->
+    <string name="loadingtext">설 레 발</string>
+    <string name="loadingimg">loadimg</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="token">Token</string>
+
+    <string name="reset_password">Reset Password</string>
+    <string name="name">Name</string>
+
+    <string name="already_registered_login_now">Already Registered ? Login Now !</string>
+    <string name="register">Register</string>
+    <string name="title_activity_checklist">ChecklistActivity</string>
+    <!-- fragment title 제목 -->
+    <string name="f_title">어떤 모습을 좋아하나요?</string>
+    <string name="f_title2">당신은 어떤 사람인가요?</string>
+    <string name="f_Roadtitle3">위치</string>
+
+    <!-- fragment check list 속의 타이틀 제목  -->
+    <string name="c_titlesex1">1. 성별</string>
+    <string name="c_title1">2. 옷 입는 취향</string>
+    <string name="loadimg">loadimg</string>
+    <string name="loadimgdog">loadimgdog</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

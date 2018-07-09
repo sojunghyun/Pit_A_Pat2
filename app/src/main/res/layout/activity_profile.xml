@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="ProfileActivity">
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progress"
+        android:layout_marginTop="24dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+          >
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/black"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_name"
+                android:layout_marginTop="8dp"
+                android:layout_centerHorizontal="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_email"
+                android:layout_marginTop="8dp"
+                android:layout_centerHorizontal="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_change_password"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/card"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="24dp"
+        android:drawableEnd="@drawable/ic_lock"
+        android:paddingStart="48dp"
+        android:text="@string/change_password" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/card"
+        android:layout_marginTop="24dp"
+        android:layout_toEndOf="@+id/btn_change_password"
+        android:drawableEnd="@drawable/ic_exit"
+        android:paddingStart="48dp"
+        android:text="@string/logout" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_change_password"
+        android:layout_marginTop="24dp"
+        android:drawableEnd="@drawable/ic_arrow_forward"
+        android:paddingStart="48dp"
+        android:text="@string/start" />
+
+</RelativeLayout>

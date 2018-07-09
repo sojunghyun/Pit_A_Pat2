@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="checkbox1">여자</string>
+    <string name="checkbox2">남자</string>
+    <string name="checkbox3">정장</string>
+    <string name="checkbox4">운동복</string>
+    <string name="checkbox5">평범</string>
+    <string name="checkbox6">화려</string>
+</resources>
